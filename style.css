@@ -1,0 +1,28 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+.social-icon
+{
+    color: darkgrey;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 ;
+}
+
+.social-icon:hover
+{
+    color:black;
+}
+
+
+  
